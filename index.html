@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference | Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+  <body>
+    <!-- Hero Section with Carousel -->
+    <section class="hero text-center">
+      <!-- Carousel Section -->
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <!-- Carousel Indicators -->
+        <div class="carousel-text">
+          <p>
+            WORLD <br />
+            UNITY <br />
+            ALLIANCE
+          </p>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
+        </ol>
+        <!-- End of Carousel Indicators -->
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/hero1.jpg" class="d-block w-100" alt="event 1" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>The Echo Chamber</h1>
+              <p>Opens 19 September</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/hero2.jpg" class="d-block w-100" alt="event 2" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>YOKO ONO - PEACE IS POWER</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- End of Carousel Section -->
+    </section>
+    <!-- End of Hero Section with Carousel -->
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light fade-in">
+      <div class="container">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="register.html" class="nav-link">Register Now</a>
+            </li>
+            <li class="nav-item">
+              <a href="participant.html" class="nav-link">See All Participants</a>
+            </li>
+            <li class="nav-item">
+              <a href="#news" class="nav-link">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience-exhibitions" class="nav-link">Plan Your Visit</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar Section -->
+
+    <!-- What's On Section -->
+    <section id="whats-on" class="py-5 text-center fade-in">
+      <div class="container">
+        <h2>WHAT'S ON?</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="event-card">
+              <span class="event-tag">Exhibition</span>
+              <img src="assets/images/event1.jpg" alt="exhibition" />
+              <p class="event-title">YOKO ONO - PEACE IS POWER</p>
+              <p class="event-date">Available until 15 Nov 2024</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="event-card">
+              <span class="event-tag">Tour</span>
+              <img src="assets/images/event2.jpg" alt="tour" />
+              <p class="event-title">Guided tours on weekends</p>
+              <p class="event-date">* Each Saturday and Sunday at 17.00</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="event-card">
+              <span class="event-tag">Event</span>
+              <img src="assets/images/event3.jpg" alt="event" />
+              <p class="event-title">The Peace Dove – Flying with Hope</p>
+              <p class="event-date">* Each Friday at 17.00</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="event-card">
+              <span class="event-tag">Event</span>
+              <img src="assets/images/event4.jpg" alt="event" />
+              <p class="event-title">Kulturnatt - Nobel Peace Walks</p>
+              <p class="event-date">13 Sep 2024 20:00</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-outline-dark mt-4">SEE ALL</button>
+      </div>
+    </section>
+    <!-- End of What's On Section -->
+
+    <!-- Experience Exhibitions -->
+    <section id="experience-exhibitions" class="experience text-center fade-in">
+      <div class="container">
+        <p class="experience-text">Experience our exhibitions, events and guided tours inspired by the ideas and work of the Nobel Peace Prize laureates.</p>
+        <div class="d-flex justify-content-center mt-3">
+          <button class="btn btn-dark mx-2">READ THEIR STORY</button>
+          <button class="btn btn-outline-dark mx-2">PLAN YOUR VISIT</button>
+        </div>
+      </div>
+    </section>
+    <!-- End of Experience Exhibitions Section -->
+
+    <!-- News Section -->
+    <section id="news" class="py-5 fade-in">
+      <div class="container">
+        <h2 class="text-center mb-5">NEWS</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <img src="assets/images/news1.jpg" class="img-fluid mb-3" alt="News Image 1" />
+            <h5 class="news-category">NEWS</h5>
+            <h3 class="news-title">Launch of #FreeNarges coalition</h3>
+            <a href="#" class="news-link">READ MORE <span class="arrow">→</span></a>
+          </div>
+          <div class="col-md-6 mb-4">
+            <img src="assets/images/news2.jpg" class="img-fluid mb-3" alt="News Image 2" />
+            <h5 class="news-category">OPINIONS</h5>
+            <h3 class="news-title">The power of women's defiance in Iran is inspiring</h3>
+            <a href="#" class="news-link">READ MORE <span class="arrow">→</span></a>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="#" class="btn btn-outline-dark">READ MORE <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+    <!-- End of News Section -->
+
+    <!-- Footer -->
+    <footer class="py-4">
+      <div class="container text-center">
+        <p>Made with ❤️ by <a href="https://www.instagram.com/kelvinrll/" target="_blank">Kelvin Erlangga Satriagung</a></p>
+        <p>&copy; 2024 WORLD UNITY ALLIANCE. All rights reserved</p>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const fadeInElements = document.querySelectorAll(".fade-in");
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("fade-in-visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        fadeInElements.forEach((element) => {
+          observer.observe(element);
+        });
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
